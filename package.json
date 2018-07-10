@@ -1,0 +1,26 @@
+{
+  "name": "react-native-base64",
+  "version": "0.0.1",
+  "description": "Base64 encoding and decoding helping util. Created for React Native but can be used anywhere",
+  "main": "base64.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eranbo/react-native-base64.git"
+  },
+  "keywords": [
+    "base64",
+    "encode",
+    "decode",
+    "react",
+    "native"
+  ],
+  "author": "eranbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eranbo/react-native-base64/issues"
+  },
+  "homepage": "https://github.com/eranbo/react-native-base64#readme"
+}
