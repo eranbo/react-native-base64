@@ -7,7 +7,7 @@ Install
 
 How to use:
 ```
-import base64 from './base64'
+import base64 from 'react-native-base64'
 
 ...
 
