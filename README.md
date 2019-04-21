@@ -16,3 +16,6 @@ base64.encode('Some string to encode to base64');
 base64.decode('SW4gbXkgZXllcywgaW5kaXNwb3NlZA0KSW4gZGlzZ3Vpc2VzIG5vIG9uZSBrbm93cw0KUklQIEND==')
 ```
 
+Do you like this package? Do you find it useful?  
+Please rank it with a star and leave a comment.  
+Thanks :)
