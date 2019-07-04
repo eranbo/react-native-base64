@@ -6,6 +6,7 @@ Created for React Native but can be used anywhere.
 
 Install  
 ```npm install --save react-native-base64```  
+You can find it on npmjs.com here: [https://www.npmjs.com/package/react-native-base64](https://www.npmjs.com/package/react-native-base64)
 
 How to use:
 ```
