@@ -1,7 +1,7 @@
 let keyStr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
 export default {
-    encode: function(input) {
-        var output = "";
+    encode: function (input) {
+        var output = [];
         var chr1, chr2, chr3 = "";
         var enc1, enc2, enc3, enc4 = "";
         var i = 0;
@@ -22,19 +22,19 @@ export default {
                 enc4 = 64;
             }
 
-            output = output +
+            output.push(
                 keyStr.charAt(enc1) +
                 keyStr.charAt(enc2) +
                 keyStr.charAt(enc3) +
-                keyStr.charAt(enc4);
+                keyStr.charAt(enc4))
             chr1 = chr2 = chr3 = "";
             enc1 = enc2 = enc3 = enc4 = "";
         } while (i < input.length);
 
-        return output;
+        return output.join('');
     },
 
-    decode: function(input) {
+    decode: function (input) {
         var output = "";
         var chr1, chr2, chr3 = "";
         var enc1, enc2, enc3, enc4 = "";
