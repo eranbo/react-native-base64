@@ -1,7 +1,7 @@
 If you find this package useful hit the star with <3
   
 # react-native-base64
-Base64 encoding and decoding helping util (does not support some Unicode characters).  
+Base64 encoding and decoding helping util (does not support some Unicode characters or binary input).  
 Created for React Native but can be used anywhere.
 
 Install  
