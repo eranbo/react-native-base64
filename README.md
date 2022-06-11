@@ -5,21 +5,27 @@ Base64 encoding and decoding helping util (does not support some Unicode charact
 Created for React Native but can be used anywhere.
 
 Install  
-```npm install --save react-native-base64```  
+```
+npm i react-native-base64
+```  
 You can find it on npmjs.com here: [https://www.npmjs.com/package/react-native-base64](https://www.npmjs.com/package/react-native-base64)
 
-How to use:
+How to use:  
+Add import statement:
 ```
 import base64 from 'react-native-base64'
-
-...
-
+```
+To Encode:  
+```
 base64.encode('Some string to encode to base64');
-
+```
+To Decode:
+```
 base64.decode('SW4gbXkgZXllcywgaW5kaXNwb3NlZA0KSW4gZGlzZ3Vpc2VzIG5vIG9uZSBrbm93cw0KUklQIEND==');
-
+```
+To Decode from byte arary:
+```
 base64.encodeFromByteArray(byteArray: Uint8Array);
-
 ```
 
 Do you like this package? Do you find it useful?  
