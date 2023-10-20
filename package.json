@@ -3,6 +3,10 @@
   "version": "0.2.1",
   "description": "Base64 encoding and decoding helping util. Created for React Native but can be used anywhere",
   "main": "base64.js",
+  "files": [
+    "base64.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
