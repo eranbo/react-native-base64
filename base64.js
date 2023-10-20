@@ -69,7 +69,7 @@ export default {
     },
 
     decode: function (input) {
-        var output = "";
+        var output = [];
         var chr1, chr2, chr3 = "";
         var enc1, enc2, enc3, enc4 = "";
         var i = 0;
@@ -93,13 +93,13 @@ export default {
             chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
             chr3 = ((enc3 & 3) << 6) | enc4;
 
-            output = output + String.fromCharCode(chr1);
+            output.push(String.fromCharCode(chr1));
 
             if (enc3 != 64) {
-                output = output + String.fromCharCode(chr2);
+                output.push(String.fromCharCode(chr2));
             }
             if (enc4 != 64) {
-                output = output + String.fromCharCode(chr3);
+                output.push(String.fromCharCode(chr3));
             }
 
             chr1 = chr2 = chr3 = "";
@@ -107,6 +107,6 @@ export default {
 
         } while (i < input.length);
 
-        return output;
+        return output.filter((char) => char !== '\x00').join("")
     }
 }
