@@ -1,5 +1,7 @@
 If you find this package useful hit the star with <3
-  
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/eranbo)
+
 # react-native-base64
 Base64 encoding and decoding helping util (does not support some Unicode characters).  
 Created for React Native but can be used anywhere.
